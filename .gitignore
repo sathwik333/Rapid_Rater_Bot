@@ -1,0 +1,28 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Environment Variables (CRITICAL FOR SECURITY)
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Sensitive Files
+secrets/
+credentials/
